@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #1F2937
+}
+
+header,
+main {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;   
+    text-align: center;
+    color: whitesmoke 
+}
+
+.selection-section {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+input {
+    width: 60px;
+    height: 45px;
+    cursor: pointer;
+}
+
+#schemes {
+    background: none;
+    border-color: white;
+    border-radius: 5px;
+    border-width: 1.5px;
+    color: whitesmoke;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+select option {
+    background-color: #1F2937;
+    color: whitesmoke;
+}
+
+button {
+    border-radius: 5px;
+    font-size: 0.88rem;
+    font-weight: bold;
+    color: whitesmoke;
+    border-width: 0;
+    background: #0B1935;
+    cursor: pointer;
+}
+
+.color-column {
+    height: 200px;
+    width: 20%
+    
+}
+
+#display-section {
+    display: flex;
+}
+
+.column-divider {
+    width: 100%;
+}
+
+.color-column {
+    width: 100%;
+}
+
+.color-hex {
+    margin-top: 10px;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 2.vw;
+}
